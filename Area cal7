@@ -1,0 +1,84 @@
+Sheela has three things in her bag. She wants to compute the area of 3 things but 3 things are in different shapes. The three things are in a square shape, rectangular shape, and circular shape respectively. Write a program to help Sheela to calculate the area of different shapes.
+
+Sample Input 0
+
+5
+5
+4
+2.0    
+Sample Output 0
+
+25
+20
+12.56
+Sample Input 1
+
+10
+15
+15
+4.5
+Sample Output 1
+
+100
+225
+63.58
+Sample Input 2
+
+2
+3
+6
+5.0
+Sample Output 2
+
+4
+18
+78.50
+Submissions: 886
+Max Score: 0
+Difficulty: Medium
+Rate This Challenge:
+// source code
+
+import java.io.*;
+
+import java.util.*;
+
+​
+
+public class Solution {
+
+​
+
+    public static void main(String[] args) {
+
+     Scanner s=new Scanner(System.in);
+
+        int a,b,c;
+
+        float r;
+
+        a=s.nextInt();
+
+        b=s.nextInt();
+
+        c=s.nextInt();
+
+        r=s.nextFloat();
+
+        int  d=a*a;
+
+        System.out.println(d);
+
+        int h=b*c;
+
+        System.out.println(h);
+
+        float m=(float)3.14*r*r;
+
+        System.out.printf("%.2f",m);
+
+        
+
+    }
+
+}
